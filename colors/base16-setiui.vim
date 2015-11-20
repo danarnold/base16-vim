@@ -1,5 +1,5 @@
-" Base16 Bespin (https://github.com/chriskempson/base16)
-" Scheme: Jan T. Sott
+" Base16 Seti UI (https://github.com/chriskempson/base16)
+" Scheme: 
 
 " This enables the coresponding base16-shell script to run so that
 " :colorscheme works in terminals supported by base16-shell scripts
@@ -7,27 +7,27 @@
 "   let g:base16_shell_path=base16-builder/output/shell/
 if !has('gui_running')
   if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-bespin.".&background.".sh"
+    execute "silent !/bin/sh ".g:base16_shell_path."/base16-setiui.".&background.".sh"
   endif
 endif
 
 " GUI color definitions
-let s:gui00 = "28211c"
-let s:gui01 = "36312e"
-let s:gui02 = "5e5d5c"
-let s:gui03 = "666666"
-let s:gui04 = "797977"
-let s:gui05 = "8a8986"
-let s:gui06 = "9d9b97"
-let s:gui07 = "baae9e"
-let s:gui08 = "cf6a4c"
-let s:gui09 = "cf7d34"
-let s:gui0A = "f9ee98"
-let s:gui0B = "54be0d"
-let s:gui0C = "afc4db"
-let s:gui0D = "5ea6ea"
-let s:gui0E = "9b859d"
-let s:gui0F = "937121"
+let s:gui00 = "151718"
+let s:gui01 = "8ec43d"
+let s:gui02 = "3B758C"
+let s:gui03 = "41535B"
+let s:gui04 = "43a5d5"
+let s:gui05 = "d6d6d6"
+let s:gui06 = "eeeeee"
+let s:gui07 = "ffffff"
+let s:gui08 = "Cd3f45"
+let s:gui09 = "db7b55"
+let s:gui0A = "e6cd69"
+let s:gui0B = "9fca56"
+let s:gui0C = "55dbbe"
+let s:gui0D = "55b5db"
+let s:gui0E = "a074c4"
+let s:gui0F = "8a553f"
 
 " Terminal color definitions
 let s:cterm00 = "00"
@@ -59,7 +59,7 @@ endif
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "base16-bespin"
+let g:colors_name = "base16-setiui"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
